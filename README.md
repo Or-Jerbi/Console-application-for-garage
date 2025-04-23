@@ -28,14 +28,18 @@ The system is object-oriented and designed to demonstrate core OOP concepts like
 - **Type**: Console Application
 - **Paradigm**: Object-Oriented Programming (OOP)
 
-## Project Structure
-   ```bash
-   Console-application-for-garage/
-   |
-   ├── Ex03.ConsoleUI/        # Console user interface
-   ├── Ex03.GarageLogic/      # Core business logic and domain models
-   ├── Ex03.GarageLogic.sln   # Solution file
-   └── README.md              # Project documentation
+## Usage
+
+The console will prompt you with a menu to:
+
+- Add a vehicle
+- View list of vehicles (optionally filtered by status)
+- Change a vehicle's status
+- Inflate tires to max pressure
+- Refuel or recharge vehicles
+- View full details of a vehicle by license number
+
+All user inputs are validated. Invalid inputs will trigger prompts to retry.
 
 
 ## How To Run
@@ -48,14 +52,14 @@ The system is object-oriented and designed to demonstrate core OOP concepts like
 3. Set Ex03.ConsoleUI as the startup project.
 4. Build and run the solution.
 
+## Project Structure
+   ```bash
+   Console-application-for-garage/
+   |
+   ├── Ex03.ConsoleUI/        # Console user interface
+   ├── Ex03.GarageLogic/      # Core business logic and domain models
+   ├── Ex03.GarageLogic.sln   # Solution file
+   └── README.md              # Project documentation
 
-## Usage
 
-The console will prompt you with a menu to:
 
-- Add a vehicle
-- View list of vehicles (optionally filtered by status)
-- Change a vehicle's status
-- Inflate tires to max pressure
-- Refuel or recharge vehicles
-- View full details of a vehicle by license number

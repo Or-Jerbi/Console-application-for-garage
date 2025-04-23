@@ -1,53 +1,56 @@
-This is a console-based application designed to manage a garage's vehicle records. Users can perform various operations on vehicles by referencing their license numbers. The application is implemented in C# and follows a modular architecture.​
-Pumping Code
-Overview
+# Garage Management Console Application
 
-The application allows users to:​
+A C# console-based application designed to manage a garage's vehicles, including electric and fuel-based vehicles, maintenance status, and more. Built as part of a software engineering course exercise or personal learning project.
 
-  •  Add new vehicles to the garage system.
+## Overview
 
-  •  Display a list of vehicles, optionally filtered by their status (e.g., in repair, repaired, paid).
+This console application simulates a garage management system where users can:
+- Insert new vehicles
+- Update vehicle statuses
+- Inflate tires
+- Refuel or recharge vehicles
+- Display vehicle information
 
-  •  Change the status of a vehicle.
+The system is object-oriented and designed to demonstrate core OOP concepts like inheritance, interfaces, and polymorphism in C#.
 
-  •  Inflate vehicle tires to their maximum pressure.
+## Features
 
-  •  Refuel fuel-powered vehicles.
+- Supports multiple vehicle types (Cars, Motorcycles, Trucks)
+- Handles both fuel-based and electric engines
+- Enforces validation for license numbers, energy levels, etc.
+- Displays detailed information for each vehicle
+- Manages vehicle statuses (InRepair, Fixed, Paid)
 
-  •  Charge electric vehicles.
+## Technologies
 
-  •  Display detailed information about a specific vehicle.​
+- **Language**: C#
+- **Platform**: .NET Framework
+- **Type**: Console Application
+- **Paradigm**: Object-Oriented Programming (OOP)
 
-Project Structure
-
-The solution is organized into the following projects:​
-
-  •  Ex03.ConsoleUI: Handles user interaction, input parsing, and output display.
-
-  •  Ex03.GarageLogic: Contains the core business logic, including classes and methods for managing vehicles and garage operations.​
-
-Getting Started
-Prerequisites
-
-  •  .NET SDK (version X.X or higher)
-
-  •  A C#-compatible IDE or text editor (e.g., Visual Studio, Visual Studio Code)​
+## Project Structure
+   ```bash
+    Console-application-for-garage/ │ ├── Ex03.ConsoleUI/ # Console user interface ├── Ex03.GarageLogic/ # Core business logic and domain models ├── Ex03.GarageLogic.sln # Solution file └── README.md # Project documentation
 
 
-Building and Running
+## How to Run
 
-  •  Clone the repository:​
-    git clone https://github.com/Or-Jerbi/Console-application-for-garage.git
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Or-Jerbi/Console-application-for-garage.git
+   
+2. Open Ex03.GarageLogic.sln in Visual Studio (or any other C# IDE that supports .NET Framework projects).
+3. Set Ex03.ConsoleUI as the startup project.
+4. Build and run the solution.
 
-  •  Navigate to the solution directory:​
-    cd Console-application-for-garage
 
-  •  Open the solution file A23 Ex03 Maor Or.sln in your IDE.​
+## Usage
 
-  •  Build the solution to restore dependencies and compile the projects.​
+The console will prompt you with a menu to:
 
-  •  Set Ex03.ConsoleUI as the startup project and run the application.​
-
-Usage
-
-Upon running, the application presents a menu-driven interface where users can select operations by entering corresponding numbers. Follow on-screen prompts to perform desired actions.
+- Add a vehicle
+- View list of vehicles (optionally filtered by status)
+- Change a vehicle's status
+- Inflate tires to max pressure
+- Refuel or recharge vehicles
+- View full details of a vehicle by license number

@@ -30,10 +30,15 @@ The system is object-oriented and designed to demonstrate core OOP concepts like
 
 ## Project Structure
    ```bash
-    Console-application-for-garage/ │ ├── Ex03.ConsoleUI/ # Console user interface ├── Ex03.GarageLogic/ # Core business logic and domain models ├── Ex03.GarageLogic.sln # Solution file └── README.md # Project documentation
+   Console-application-for-garage/
+   |
+   ├── Ex03.ConsoleUI/        # Console user interface
+   ├── Ex03.GarageLogic/      # Core business logic and domain models
+   ├── Ex03.GarageLogic.sln   # Solution file
+   └── README.md              # Project documentation
 
 
-## How to Run
+## How To Run
 
 1. Clone the repository:
    ```bash
